@@ -1,7 +1,8 @@
 import utide as ut
 import numpy as np
-
 import pandas as pd
+import datetime as datetime
+
 """
 Functions to make the process of performing harmonic analysis w u-tide a little more seamless at multiple locations.
 - Functions loop through desired locations, perform harmonic analysis and/or harmonic reconstruction at each location,
@@ -14,8 +15,9 @@ TO-DO:
     - Add region options (ex. FORCE CLA) so user doesn't have to specify huge list of points
 
 Lilli Enders (lilli.enders@outlook.com)
-June 2021
+June 2022
 """
+
 def solveCoefs(dataDict, locs=None):
     """
     Solve harmonic constituents using u-tide at specified locations
