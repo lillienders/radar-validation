@@ -57,10 +57,18 @@ Supplemental Files (Not the Cleanest Files)
 
 **get_receiver_coef.py**
 
+Loops through csv of receiver locations and dates and calculates coeffs for each
+
 **dictToCSV.py**
+
+Converts dictionary to csv (for CB)
 
 **mk_grid.py**
 
+Calculates flow metrics for all locations on radar grid for entire time period of interest (2011-2021), exports data as csv (very slow - best to run on server!)
+
 **mk_samples.py**
+
+Calculates flow metrics for receiver locations during deployment durations of each receiver, exports data as csv
 
 
